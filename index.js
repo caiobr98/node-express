@@ -26,7 +26,7 @@ server.post('/cursos', (req, res) => {
 });
 
 //update
-server.put('cursos/:index', (req, res) => {
+server.put('/cursos/:index', (req, res) => {
     const { index } = req.params;
     const { name } = req.body;
 
